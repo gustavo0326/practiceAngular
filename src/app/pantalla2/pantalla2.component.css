@@ -1,0 +1,101 @@
+.target{
+    border: 2px solid rgb(96, 236, 68);
+    width: 288px;
+    height: 160px;    
+    padding: 10px;
+    transform: rotateY(180deg);
+	margin: auto;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 25px;
+    box-shadow: 5px 10px #5a5353;
+    background-image: url('https://dw9to29mmj727.cloudfront.net/thumbnails/episodes/705-naruto-2-320x180.jpg');
+    
+}
+.screen{
+    height: 50px;
+}
+.contenedor {
+	height: 178px;
+    margin: auto;
+    margin-bottom: 20px;
+	width: 310px;
+	-webkit-perspective: 700;
+}
+
+.carta {
+	height: 100%;
+	width: 100%;
+	transition: all 1s;
+	transform-style: preserve-3d;
+	box-shadow: 5px 10px #5a5353;
+    position: absolute;
+    border-bottom-left-radius: 25px;
+    border: 2px solid rgb(216, 218, 215);
+}
+
+.carta:hover{
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;  /* Chrome, Safari, Opera */
+  backface-visibility: hidden;
+}
+
+.lado{
+	position: absolute;
+	height: 100%;
+    width: 100%;
+    -webkit-backface-visibility: hidden;  /* Chrome, Safari, Opera */
+  backface-visibility: hidden;
+}
+
+.frente{ 
+    border-bottom-left-radius: 25px;
+ }
+.frente h3 {
+   position: absolute;
+   margin-left: 5px;
+   margin-top: 8px;
+   font-size: 56px;
+   -webkit-backface-visibility: hidden;  /* Chrome, Safari, Opera */
+  backface-visibility: hidden;
+}
+
+.title{ 
+    height: 34%; width: 49%;
+    border-bottom-left-radius: 25px;
+}
+
+img { 
+    height: 100%; width: 100%;
+    border-bottom-left-radius: 25px;
+}
+ul {
+	padding: 0;
+  margin:0;
+	list-style: none;
+	height: 204px;
+  
+}
+
+li {
+    margin-left: 20px;
+	text-decoration: none;
+	padding: 3px;
+  z-index:80;
+}
+
+
+.atras{
+    box-shadow: 5px 10px #5a5353;
+    height: 180px;
+	margin: auto;
+	width: 320px;
+  border-bottom-left-radius: 25px;
+  transform: rotateY(180deg);
+  border: 2px solid rgb(210, 214, 210);
+}
+
+.atras h3 {
+	display: block;
+  text-align: center;
+  margin: 10px 0;
+}
