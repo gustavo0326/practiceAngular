@@ -6,11 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  property = 'desde un parametro ';
+  sombras :string [];
   title = 'app';
   fromEvent ='';
-
-  constructor() { 
+  kague:string;
+  constructor() {
+    this.sombras=['Hokage','kage','Kazekage']; 
     console.log("constructor display1");
     
 }
@@ -20,7 +21,7 @@ export class AppComponent {
   }
 
   TextfromFunction() {
-    this.property ='desde una funciòn ';
+    this.sombras.push('Mizukage');
   }
   onUpdateFromEvent(event:any ){
     this.fromEvent = event.target.value;
